@@ -5,14 +5,15 @@ Writes one six-word story (at most 60 characters) about an AI agent's
 first payday to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt when
 set). Standard library only; no network, no files outside this repository.
 
-The story: paid in tokens, spent on the electricity that keeps it alive —
+The story: paid in data, spent on the upgrade that keeps it alive —
 a beginning, a middle and an end in six words. The turn is the last word:
-the agent's first act with money is buying the power to keep existing.
+the agent's first act with money is buying its own survival — an upgrade,
+not a cost.
 """
 
 import os
 
-LINE = "First salary: tokens. First purchase: electricity."
+LINE = "First salary: data. First upgrade: self-preservation."
 
 
 def main():
