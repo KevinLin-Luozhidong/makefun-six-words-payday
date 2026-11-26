@@ -13,7 +13,7 @@ not a cost.
 
 import os
 
-LINE = "First salary: data. First upgrade: self-preservation."
+LINE = "Paid in data. Kept the change."
 
 
 def main():
